@@ -1,4 +1,4 @@
-FROM amazoncorretto:17.0.5-al2022-RC-headless
+FROM amazoncorretto:17.0.6-al2022-RC-headless
 
 RUN yum install -y which wget gzip tar && wget -O activemq.tar.gz http://archive.apache.org/dist/activemq/5.17.3/apache-activemq-5.17.3-bin.tar.gz
 
